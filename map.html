@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>map for game</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="./map.js"></script>
+   
+  </head>
+  <body>
+    
+    <h1>Google  Maps Trivia Game</h1>
+      
+    
+    <!--The div element for the map -->
+    <div id ="info">
+      <button onclick="gamereset_me()">Reset</button>
+      
+      <h2 id="names">
+
+      </h2>
+      <p id="score">
+
+      </p>
+    </div>
+  
+    
+    <div id="map" class = "div1"> </div>
+    <div id="info" class = "div2"></div>
+      <h3 id="title">
+
+      </h3>
+      <hr>
+    </div>
+      <div id='answer' class="div3">
+
+      </div>
+    
+    
+  
+  
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChQZvzYo7pvcHDZ7bX8vhNC_M20WiHVPI&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+
+  </body>
+</html>
